@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        .b-table {
+            max-width: 756px;
+            width: 100%;
+            border-collapse: separate;
+            margin: 20px auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: 1px solid #dddddd;
+            border-spacing: 0;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            overflow-x: auto;
+        }
+
+        .b-table td,
+        .b-table th {
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border: 1px solid #cacaca;
+            font-size: 20px;
+            text-align: start;
+            vertical-align: middle;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 50%;
+            
+        }
+        .b-table tr:nth-child(even) td {
+            background: #ececec ;
+        }
+        
+        .b-table th {
+            background-color: #404040;
+            border-right: 0;
+            color: #fff;
+        }
+        .b-table tr:first-child th:first-child {
+            border-top-left-radius: 10px;
+        }
+        .b-table tr:first-child th:last-child {
+            border-top-right-radius: 10px;
+            border-right: 1px solid #cacaca;
+        }
+        .zero {
+            padding: 0 !important;
+            border: 0 !important;
+            min-width: 100px;
+            text-align: start !important;
+            vertical-align: middle !important;
+        }
+        
+
+
+
+    </style>
+</head>
+<body>
+
+    <div style="overflow-x: auto;">
+
+        <table class="b-table">
+            <tr>
+                <th style="border-right: 0;">Bricks</th>
+                <th style="border-left: 0;">100 Notes</th>
+            </tr>
+    
+            <tr>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">100</td>
+                            <td class="zero">-</td>
+                            <td class="zero">10,000</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">10 0000</td>
+                            <td class="zero">-</td>
+                            <td class="zero">10,000,000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">50</td>
+                            <td class="zero">-</td>
+                            <td class="zero">5,000</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">20 0000</td>
+                            <td class="zero">-</td>
+                            <td class="zero">20,000,000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">20</td>
+                            <td class="zero">-</td>
+                            <td class="zero">2,000</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">50 0000</td>
+                            <td class="zero">-</td>
+                            <td class="zero">50,000,000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+    
+    
+            <tr>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">10</td>
+                            <td class="zero">-</td>
+                            <td class="zero">1,000</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">50 000</td>
+                            <td class="zero">-</td>
+                            <td class="zero">5,000,000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">5</td>
+                            <td class="zero">-</td>
+                            <td class="zero">500</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">20 000</td>
+                            <td class="zero">-</td>
+                            <td class="zero">2,000,000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">1</td>
+                            <td class="zero">-</td>
+                            <td class="zero">100</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">10 000</td>
+                            <td class="zero">-</td>
+                            <td class="zero">1,000,000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">1</td>
+                            <td class="zero">-</td>
+                            <td class="zero">100</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">10 000</td>
+                            <td class="zero">-</td>
+                            <td class="zero">1,000,000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+    
+            <tr>
+                <td style="border-right: 0;"></td>
+                <td style="border-left: 0;">
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">5 000</td>
+                            <td class="zero">-</td>
+                            <td class="zero">5,00,000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+    
+            <tr>
+                <td style="border-right: 0;">
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">1000</td>
+                            <td class="zero">-</td>
+                            <td class="zero">1,00,000</td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="border-left: 0;"></td>
+            </tr>
+    
+        </table>
+    
+        <table class="b-table">
+            <tr>
+                <th style="border-right: 0;">Folds</th>
+                <th style="border-left: 0;">10 Notes</th>
+            </tr>
+    
+            <tr>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">100</td>
+                            <td class="zero">-</td>
+                            <td class="zero">1000</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">1000</td>
+                            <td class="zero">-</td>
+                            <td class="zero">10,000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">50</td>
+                            <td class="zero">-</td>
+                            <td class="zero">500</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">500</td>
+                            <td class="zero">-</td>
+                            <td class="zero">5,000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">20</td>
+                            <td class="zero">-</td>
+                            <td class="zero">200</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">200</td>
+                            <td class="zero">-</td>
+                            <td class="zero">2,000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+    
+    
+            <tr>
+                <td style="border-right: 0;">
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">10</td>
+                            <td class="zero">-</td>
+                            <td class="zero">100</td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="border-left: 0;">
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">5</td>
+                            <td class="zero">-</td>
+                            <td class="zero">50</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">100 000</td>
+                            <td class="zero">-</td>
+                            <td class="zero">1,000,000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">2</td>
+                            <td class="zero">-</td>
+                            <td class="zero">20</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">50 000</td>
+                            <td class="zero">-</td>
+                            <td class="zero">500,000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">1</td>
+                            <td class="zero">-</td>
+                            <td class="zero">10</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">20 000</td>
+                            <td class="zero">-</td>
+                            <td class="zero">200,000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+    
+            <tr>
+                <td style="border-right: 0;"></td>
+                <td style="border-left: 0;">
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">10 000</td>
+                            <td class="zero">-</td>
+                            <td class="zero">100,000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+    
+            <tr>
+                
+                <td style="border-right: 0;"></td>
+                <td style="border-left: 0;">
+                    <table style="width: 55%;">
+                        <tr>
+                            <td class="zero">5000</td>
+                            <td class="zero">-</td>
+                            <td class="zero">50,000</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+    
+        </table>
+
+    </div>
+
+   
+    
+</body>
+</html>
